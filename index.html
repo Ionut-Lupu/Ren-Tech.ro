@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+  <title>Rentech.ro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="js-menu-container">
+    <button class="menu-toggle js-close-menu">
+      <svg>
+        <use href="./icons.svg#icon-close-mobile-menu" />
+      </svg>
+    </button>
+
+    <div class="container-modal-menu-mobile">
+      <ul class="nav-mobile">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Echipamente</a>
+        </li>
+        <li>
+          <a href="#">Servicii Personalizate</a>
+        <li>
+          <a href="#">Studio Inregistrari</a>
+        </li>
+
+        </li>
+        <li>
+          <a href="#">Despre noi</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+
+      <ul class="social-media-links-js-menu">
+        <li>
+          <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+          <svg class="instagram">
+            <use href="./icons.svg#icon-instagram" />
+          </svg>
+
+        </li>
+        <li>
+          <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+          <svg class="facebook">
+            <use href="./icons.svg#icon-facebook" />
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- menu button mobile-->
+  <div class="menu-button js-open-menu">
+    <svg>
+      <use href="icons.svg#icon-menu"></use>
+    </svg>
+  </div>
+
+  <header></header>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>
